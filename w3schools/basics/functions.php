@@ -20,5 +20,5 @@ function addFiveByReference(&$value)
 
 $number = 2;
 addFiveByReference($number);
-echo $number;
+echo (string)$number;
 ?>
