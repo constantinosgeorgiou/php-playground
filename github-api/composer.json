@@ -1,0 +1,8 @@
+{
+    
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "knplabs/github-api": "^3.8",
+        "league/oauth2-github": "^3.0"
+    }
+}
