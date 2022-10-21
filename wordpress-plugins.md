@@ -8,3 +8,5 @@
 [WordPress Settings API Tutorial](http://ottopress.com/2009/wordpress-settings-api-tutorial/)
 
 [Xampp control panel is not showing](https://stackoverflow.com/questions/46627164/xampp-control-panel-is-not-showing)
+
+[VS Code highlighted all my wordpress function name](https://stackoverflow.com/questions/59890854/vs-code-highlighted-all-my-wordpress-function-name)
