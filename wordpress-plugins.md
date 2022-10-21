@@ -4,3 +4,7 @@
 
 [`__() magic method`](https://developer.wordpress.org/reference/functions/__/)
 [__(): What if I have to pass in a variable?](https://wordpress.stackexchange.com/questions/131248/what-if-i-have-to-pass-in-a-variable)
+
+[WordPress Settings API Tutorial](http://ottopress.com/2009/wordpress-settings-api-tutorial/)
+
+[Xampp control panel is not showing](https://stackoverflow.com/questions/46627164/xampp-control-panel-is-not-showing)
