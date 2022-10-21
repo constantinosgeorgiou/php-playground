@@ -23,21 +23,21 @@ function wporg_settings_init() {
 
 	// Register a new section in the "wporg" page.
 	add_settings_section(
-		'wporg_section_developers', // id (required)
-		__( 'The Matrix has you.', 'wporg' ), 
-		'wporg_section_developers_callback',
-		'wporg'
+		'wporg_section_developers', // id (required).
+		__( 'The Matrix has you.', 'wporg' ), // title (required): Retrieves translation for The Matrix has you. from domain wporg.
+		'wporg_section_developers_callback', // callback (required).
+		'wporg' // slug-name of the settings page.
 	);
 
 	// Register a new field in the "wporg_section_developers" section, inside the "wporg" page.
 	add_settings_field(
-		'wporg_field_pill', // As of WP 4.6 this value is used only internally.
+		'wporg_field_pill', // id (required) : As of WP 4.6 this value is used only internally.
 		// Use $args' label_for to populate the id inside the callback.
-			__( 'Pill', 'wporg' ),
-		'wporg_field_pill_cb',
-		'wporg',
-		'wporg_section_developers',
-		array(
+			__( 'Pill', 'wporg' ), // title/label (required): Retrieves translation for Pill from domain wporg.
+		'wporg_field_pill_cb', // callback (required).
+		'wporg', // page (required).
+		'wporg_section_developers', // section (optional).
+		array( // args (optional).
 			'label_for'         => 'wporg_field_pill',
 			'class'             => 'wporg_row',
 			'wporg_custom_data' => 'custom',
